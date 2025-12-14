@@ -1,0 +1,22 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/products",
+      "dest": "/products.html"
+    },
+    {
+      "src": "/contacts",
+      "dest": "/contacts.html"
+    },
+    {
+      "src": "/about",
+      "dest": "/about.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
