@@ -33,9 +33,22 @@
   background-color: rgb(48, 151, 155);
   color: forestgreen;
 }
+#sign-in-page {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  z-index: 1000;
+}
     </style>
-    <button onclick="location.reload();" style="position: absolute; right: 10px;">Sign In</button>
-</nav>
+    <!-- <button onclick="location.reload();" style="position: absolute; right: 10px;">Sign In</button> -->
+<a id="sign-in-page" href="accounts.google.com"  class="button">Sign In</a>
 </head>
 <body>
     <header>
